@@ -248,17 +248,14 @@ public class WebDriverUtility<TakeScreenshot> {
 	 * this method is used to close the current window
 	 */
 	public void closeCurrentWindow() {
-		// driver.closewindow();
+		driver.close();
 	}
 
 	public void quitAllWindows() {
-		// TODO Auto-generated method stub
+		driver.quit();
 		
 	}
-
-	
-	
-	}
+}
  
 
 

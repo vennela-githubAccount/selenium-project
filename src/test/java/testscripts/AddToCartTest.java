@@ -3,8 +3,9 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import genericLibraries.BaseClass;
 
-@Test
+
 public class AddToCartTest extends BaseClass {
+	@Test
 	public void addToCartTest() {
 		
 		SoftAssert soft = new SoftAssert();
